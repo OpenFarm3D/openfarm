@@ -48,8 +48,13 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: forestgreen;
     transition: var(--transition);
+}
+
+a:hover {
+    text-decoration: none;
+    color: limegreen;
 }
 
 img {
@@ -208,7 +213,7 @@ img {
 /* About Page Specifics */
 .tech-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
     gap: 2rem;
 }
 
